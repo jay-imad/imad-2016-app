@@ -24,7 +24,7 @@ var articles = {
                         This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.
                     </p>`
         
-    },
+                        },
     'article-two' : {
         title: 'Article Two | Jayendran GS',
         heading: 'Article Two',
@@ -32,15 +32,14 @@ var articles = {
         content: `<p>
                         This is my second article.
                     </p>`
-    },
+                     },
     'article-three' : {
         title: 'Article Three | Jayendran GS',
         heading: 'Article Three',
         date: 'October 20, 2016',
         content: `<p>
                         This is my third article.
-                </p>`
-}
+                </p>` }
 };
 
 function createTemplate(data) {
